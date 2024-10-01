@@ -1,5 +1,5 @@
 package OOPs;
-
+import java.util.Scanner;
 public class colleg_detail {
     public static class student{
         int PRN ,  age;
@@ -8,10 +8,13 @@ public class colleg_detail {
         
     }
     public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
         System.out.println("Student 1st Detail:- ");
         student x=new student();
+
         x.name="Ankit kumar";
         System.out.println(x.name);
+       
         x.PRN=2114110545;
         System.out.println(x.PRN);
         x.dob="21/9/2004";
