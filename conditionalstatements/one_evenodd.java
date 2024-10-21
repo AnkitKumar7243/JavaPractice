@@ -12,8 +12,8 @@ public class one_evenodd {
         if(n%3==0){
             System.out.println("The number you enter is odd");
         }
-        else{
-            System.out.println("The number is not defined");
+         else{
+             System.out.println("The number is not defined");
         }
     }
     
